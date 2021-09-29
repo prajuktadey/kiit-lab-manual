@@ -16,8 +16,4 @@ int main ()
   printf("The given temperature in Centigrade is: %f\n", result);
   
   return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fe5d91d5324840bc4e600f66834a54033424ef15
