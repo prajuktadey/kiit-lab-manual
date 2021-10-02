@@ -16,8 +16,8 @@ int main ()
   a = a + b; 
   b = a - b; 
   a = a - b; 
-
-  printf("The swapped values for a and b: %d and %d ", a,b);
+ 
+ printf("The swapped values for a and b: %d and %d ", a,b);
   
   return (0);
 }
