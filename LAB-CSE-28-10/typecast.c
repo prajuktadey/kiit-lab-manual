@@ -1,3 +1,4 @@
+//program displays the value of the expression using tyepecast
 #include <stdio.h>
 
 int main () 
