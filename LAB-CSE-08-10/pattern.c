@@ -1,7 +1,6 @@
-#include <stdio.h>
-
 //WAP to display “KIIT” using the character ‘*’.//
 
+#include <stdio.h>
 int main()
 {
 printf("\n\n");
