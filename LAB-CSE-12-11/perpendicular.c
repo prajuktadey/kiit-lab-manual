@@ -18,6 +18,7 @@ int main ()
    scanf("%d", &y2);
 
    m1= (y2-y1)/(x2-x1);
+   printf("%d", m1);
 
    printf("Enter x3: ");
    scanf("%d", &x3);
@@ -29,8 +30,9 @@ int main ()
    scanf("%d", &y4);
 
    m2= (y4-y3)/(x4-x3);
+   printf("%d",m2);
 
-   t=m1*m2*-1;
+   t=(m1*m2)*-1;
 
    printf("Display 1 if lines are perpendicular or any other integer if they are not.\n");
    printf("The displayed value is: %d", t);

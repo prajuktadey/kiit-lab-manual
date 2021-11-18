@@ -1,4 +1,6 @@
-//wap to find out the velocity and distance covered by a stone after time, if it is thrown with a initial velocity (u) from top of eiffel tower.
+/*wap to find out the velocity and distance covered by 
+a stone after time, if it is thrown with a initial velocity (u) 
+from top of eiffel tower.*/
 
 #include <stdio.h>
 #define g 9.8

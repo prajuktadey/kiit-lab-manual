@@ -1,4 +1,6 @@
-//wap to find out the secondary voltage of a transformer if primary volatge, turns of a primary and secondary are given( input)
+/*wap to find out the secondary voltage of a 
+transformer if primary volatge, 
+turns of a primary and secondary are given( input)*/
 
 #include <stdio.h>
 
