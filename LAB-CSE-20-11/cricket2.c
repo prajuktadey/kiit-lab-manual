@@ -10,6 +10,7 @@ int main ()
    if(score<0) goto again;
 
    count+=score/100;
+   
    i++;
    if(i<10) goto again;
 
