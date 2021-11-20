@@ -14,7 +14,7 @@ int main ()
        count++;
 
    i++;
-   if(i<10) goto again;
+   if(i<=10) goto again;
 
    printf("Total number of players who made a century: %d", count);
    

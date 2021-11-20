@@ -12,7 +12,7 @@ int main ()
    count+=score/100;
    
    i++;
-   if(i<10) goto again;
+   if(i<=10) goto again;
 
    printf("Total number of players who made a century: %d", count);
    
