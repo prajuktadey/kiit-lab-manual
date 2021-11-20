@@ -1,4 +1,4 @@
-//enter score of 10 cricket players and count number of century scored. Discard the -ve score
+//enter score of 10 cricket players and count number of centuries scored. Discard the -ve score
 #include <stdio.h>
 
 int main () 
