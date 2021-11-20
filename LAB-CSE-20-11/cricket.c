@@ -1,3 +1,4 @@
+//enter the score of 10 cricket players and find the average score
 #include <stdio.h>
 
 int main () 
