@@ -1,4 +1,5 @@
-//wap to input three numbers, display 1 if those are sides of a right angled triangle else display 0 on the screen//
+/*wap to input three numbers, display 1 if 
+those are sides of a right angled triangle else display 0 on the screen*/
 
 #include <stdio.h>
 #include <math.h>

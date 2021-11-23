@@ -1,4 +1,4 @@
-//wap to display 1 if two lines in 2-D are parallel to each other else any other integer value
+//wap to display 1 if two lines in 2-D are parallel to each other else any other integer value//
 
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-//wap to three inputs and print sum of the sides if those are sides of triangle else display 0
+//wap to three inputs and print sum of the sides if those are sides of triangle else display 0//
 
 #include <stdio.h>
 
@@ -17,5 +17,6 @@ int main ()
    s=t*(a+b+c);
 
    printf("\nDo they satisfy triangle property?1 for yes and 0 for no:  %d" ,t);
+   printf("\nThe sum of the sides is: %d", s);
    return 0;
 }

@@ -1,4 +1,4 @@
-//wap to check whether the input sides are the sides of a triangle
+//wap to check whether the input sides are the sides of a triangle//
 
 #include <stdio.h>
 
