@@ -1,4 +1,4 @@
-//wap to print the largest among three numbers(a,b,c)
+//wap to print the largest among three numbers(a,b,c)//
 #include <stdio.h>
 
 int main () 
@@ -18,7 +18,6 @@ int main ()
        max=c;
    }
    
-
    printf("\nThe largest number is: %d", max);
    return 0;
 }
