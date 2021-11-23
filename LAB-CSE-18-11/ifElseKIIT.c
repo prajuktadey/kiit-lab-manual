@@ -1,4 +1,4 @@
-//wap to print kiit student if class is 1-12 else print kiit university student
+//wap to print kiit student if class is 1-12 else print kiit university student//
 #include <stdio.h>
 
 int main () 
