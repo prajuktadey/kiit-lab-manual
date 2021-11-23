@@ -1,4 +1,4 @@
-//wap to give 60 marks grace  if age is below 50 else give 40 marks grace
+//wap to give 60 marks grace  if age is below 50 else give 40 marks grace//
 #include <stdio.h>
 
 int main () 
