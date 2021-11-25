@@ -1,3 +1,4 @@
+//Username=='a' Password==1234. Check whether username and password is correct or not.
 #include <stdio.h>
 
 int main () 
