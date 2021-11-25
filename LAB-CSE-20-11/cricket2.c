@@ -3,7 +3,7 @@
 
 int main () 
 {
-   int score, i=0, count=0;
+   int score, i=1, count=0;
    again:
    printf("\nEnter the score of next player number %d: ", i);
    scanf("%d", &score);
@@ -14,7 +14,7 @@ int main ()
    i++;
    if(i<=10) goto again;
 
-   printf("Total number of players who made a century: %d", count);
+   printf("Number of centuries made: %d", count);
    
    return 0;
 }
