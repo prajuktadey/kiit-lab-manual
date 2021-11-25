@@ -3,7 +3,7 @@
 
 int main () 
 {
-   int score, i=0, count=0;
+   int score, i=1, count=0;
 
    again:
    printf("\nEnter the score of player number %d:" ,i);
