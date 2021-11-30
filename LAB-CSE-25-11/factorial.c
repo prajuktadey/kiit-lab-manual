@@ -3,17 +3,17 @@
 
 int main()    
 {    
-  long i,num;    
-  long fact;
+  int i,num;    
+  int fact=1;
 
   printf("Enter a number: ");    
-  scanf("%ld",&num); 
+  scanf("%d",&num); 
      
   for(i=1;i<=num;i++)
   {    
       fact=fact*i;    
   }    
-  printf("Factorial of %d is: %ld",num,fact);    
+  printf("Factorial of %d is: %d",num,fact);    
 
   return 0;  
 }   
