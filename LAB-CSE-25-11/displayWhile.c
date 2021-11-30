@@ -1,4 +1,4 @@
-//wap to display the numbers 1-9 
+//wap to display the numbers 1-9 using a while loop
 #include <stdio.h>
 
 int main () 
