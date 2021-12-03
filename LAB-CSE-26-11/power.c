@@ -1,3 +1,4 @@
+//exponent using for loop
 #include <stdio.h>
 int main()
 {
