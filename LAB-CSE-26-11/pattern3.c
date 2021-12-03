@@ -28,7 +28,6 @@ int main ()
         
         printf("\n");
     }
-
     for(int i=n-2; i>=0; i--)
     {
         for(j=0; j<n-i-1; j++)
@@ -43,8 +42,6 @@ int main ()
             printf("%d", i+1);
 
         printf("\n");
-        
     }
-       
     return 0;
 }
