@@ -5,7 +5,7 @@ int display2( int n)
   int i;
   char a;
 
-  printf("ENTER VARIABLE TO BE PRINTED");
+  printf("ENTER VARIABLE TO BE PRINTED: ");
   scanf("%c",&a);
   
   for(i=0;i<n;i++)
