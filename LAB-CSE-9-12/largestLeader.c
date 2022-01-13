@@ -38,14 +38,10 @@
       printf("\nMax is %d.", a);
       printf("\nMax is %d.", findmax(15));
 
-      a= countleader(20);
+      a= countLeader(20);
       printf("\nNo. of Leaders are %d", a);
-      printf("\nNo. of Leaders are %d", countleader(10));
+      printf("\nNo. of Leaders are %d", countLeader(10));
 
       return 0;
 
    }
-
-
-
-  
