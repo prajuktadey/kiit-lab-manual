@@ -1,13 +1,13 @@
-/*
-WAP to check a number is palindrome or not
-*/
+//WAP to check a number is palindrome or not//
 
 #include<stdio.h>
 
-int pali(int *ptr){
+int pali(int *ptr)
+{
     int t,r,sum;
     t = *ptr;
-    while(*ptr>0){
+    while(*ptr>0)
+    {
         r = *ptr%10;
         sum = (sum*10)+r;
         *ptr = *ptr / 10;
@@ -22,7 +22,8 @@ int pali(int *ptr){
 
 
 }
-int main(){
+int main()
+{
     int n;
 
     printf("Enter the num: ");
