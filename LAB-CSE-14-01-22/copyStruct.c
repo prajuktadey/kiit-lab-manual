@@ -1,25 +1,22 @@
-//struc var
+//to enter the data and display it
+
 #include <stdio.h>
-#include <string.h>
 int main()
 {
- struct employee
- {
-   char name[10];
-   int age ;
-   float salary;
-  };
-  
- struct employee e1 = {"Sanjay", 30, 55.50 } ;
- struct employee e2, e3;
-
- /* piece-meal copying */
- e2.age = e1.age ;
- e2.salary = e1.salary;
-
- /* copying all elements at one go */
- e3 = e1 ;
- strcpy (e2.name, e1.name );
+struct book 
+{
+ char name[20] ;
+ float price ;
+ int pages ;
+};
+ struct book b1,b2;
+ 
+ printf("\nEnter names, prices & no. of pages of 2 books\n" ) ;
+ scanf ( "%s%f%d", b1.name, &b1.price, &b1.pages ) ;
+ scanf( "%s%f%d", b2.name, &b2.price, &b2.pages ) ;
+ printf("\nAnd this is what you entered" ) ;
+ printf ( "\n%s %f %d", b1.name, b1.price, b1.pages ) ;
+ printf ( "\n%s %f %d\n", b2.name, b2.price, b2.pages ) ;
 
  return 0;
 }
