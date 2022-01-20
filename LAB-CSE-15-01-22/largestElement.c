@@ -20,6 +20,5 @@ int main ()
     
     printf("Largest element: %.2f", *data);
     free(data);
-
     return 0;
 }

@@ -2,7 +2,6 @@
 of a player and find the average score*/
 #include <stdio.h>
 #include <stdlib.h>
-
 int main () 
 {
    int n, i, *ptr, sum=0;
@@ -17,7 +16,6 @@ int main ()
        scanf("%d", ptr+i);
        sum+= *(ptr+i);
    }
-
    printf("Sum: %d\n", sum);
    printf("Average: %f", sum/10.0);
    free(ptr);
