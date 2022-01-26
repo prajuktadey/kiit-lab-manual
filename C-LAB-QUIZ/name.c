@@ -1,10 +1,11 @@
+//space for repetitive character
 #include <stdio.h>
 int main()
 {
 	int i;
 
 	// Direct initialization of 1-D char array
-	char a[100] = { 'P', 'r', 'r', 'j', 'u', 'k','t', 'a', '\t', 'D', 'e', 'y'};
+	char a[100] = { 'P', 'r', 'r', 'j', 'u', 'k','t', 'a', ' ', 'D', 'e', 'y'};
 
 	// print the words
     printf("The original array is: ");
@@ -24,9 +25,9 @@ int main()
 
     printf("The number of vowels: %d\n", count);
 
-    //insert blank space after every consecutive character
+    //insert blank space after every repetitive character
     char array[100];
-    for (i = 0; i < 14; i++)
+    for (i = 0; i < 12; i++)
     {
         if (a[i]==a[i+1])
         {
@@ -40,7 +41,7 @@ int main()
         }
     }
 
-    for (i = 0; i < 15; i++)
+    for (i = 0; i < 12; i++)
     {
         printf("%c", a[i]);
     }
