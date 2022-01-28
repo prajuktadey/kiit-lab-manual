@@ -11,7 +11,7 @@ void main()
     char p[100];
 
     //storing my name in a new array
-    while(pr[i]!=0)
+    while(pr[i]!='\0')
     {
         p[i]=pr[i];
         i++;
